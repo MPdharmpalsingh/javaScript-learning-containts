@@ -1,0 +1,16 @@
+let array1=new Array(3);
+console.log(array1.length);
+array1[0]="red";
+array1[1]="blue";
+array1[2]="bhutni ke"
+console.log(array1);
+
+
+
+for(key in array1){
+    for(key=0;key<array1.length;key++){
+    
+    console.log(array1[key]);
+    
+    console.log(key)
+}}
